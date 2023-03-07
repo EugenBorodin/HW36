@@ -1,7 +1,7 @@
 //Задача 1
 //Создайте класс Soda (для определения типа газированной воды).
 public class Soda {
-  private String supplement;
+  private final String supplement;
 
   //У класса должен быть конструктор,
   public Soda (String supplement) {
